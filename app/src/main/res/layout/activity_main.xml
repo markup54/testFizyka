@@ -9,6 +9,7 @@
     android:gravity="center">
 
     <TextView
+        android:id="@+id/pytanieTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/pytanie1" />
@@ -34,6 +35,13 @@
             android:text="@string/odp2"
             android:onClick="sprawdz"/>
     </LinearLayout>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kolejne pytanie"
+        android:onClick="kolejne"/>
 
 
 </LinearLayout>
